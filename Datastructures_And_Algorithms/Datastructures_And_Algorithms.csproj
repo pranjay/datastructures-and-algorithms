@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="CtCI\" />
+    <Folder Include="CtCI\Stacks_And_Queues\" />
+  </ItemGroup>
 </Project>
