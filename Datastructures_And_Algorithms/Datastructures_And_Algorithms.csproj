@@ -9,4 +9,7 @@
     <Folder Include="CtCI\" />
     <Folder Include="CtCI\Stacks_And_Queues\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CtCI\Stacks_And_Queues\StacksQueuesRunner.cs" />
+  </ItemGroup>
 </Project>

@@ -37,5 +37,30 @@ namespace Datastructures_And_Algorithms.CtCI.Stacks_And_Queues
             if (Top == null) throw new Exception("Stack is empty.");
             return Top.Data;
         }
+
+        public void Run()
+        {
+            var myStack = new MyStack<string>();
+
+            myStack.Add("item one");
+            myStack.Add("item two");
+            myStack.Add("item three");
+            myStack.Add("item four");
+
+            var peek = myStack.Peek();
+            Console.WriteLine($"peek={peek}");
+
+            var remove = myStack.Remove();
+            Console.WriteLine($"remove={remove}");
+
+            remove = myStack.Remove();
+            Console.WriteLine($"remove={remove}");
+
+            remove = myStack.Remove();
+            Console.WriteLine($"remove={remove}");
+
+            remove = myStack.Remove();
+            Console.WriteLine($"remove={remove}");
+        }
     }
 }
