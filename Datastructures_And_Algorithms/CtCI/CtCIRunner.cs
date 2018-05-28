@@ -7,8 +7,10 @@ namespace Datastructures_And_Algorithms.CtCI
     {
         public static void Run()
         {
-            new MyStack<string>().Run();
-            new MyQueue<string>().Run();
+            // new MyStack<string>().Run();
+            // new MyQueue<string>().Run();
+
+            new ThreeInOne().Run();
         }
     }
 }
