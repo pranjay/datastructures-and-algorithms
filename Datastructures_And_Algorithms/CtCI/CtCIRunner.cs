@@ -10,7 +10,13 @@ namespace Datastructures_And_Algorithms.CtCI
             // new MyStack<string>().Run();
             // new MyQueue<string>().Run();
 
-            new ThreeInOne().Run();
+            //new ThreeInOne().Run();
+
+            //new MinStack().Run();
+            //new MinStackWithTwoStacks().Run();
+
+            //new SetOfStacks<int>(3).Run();
+            new SortedStack().Run();
         }
     }
 }
