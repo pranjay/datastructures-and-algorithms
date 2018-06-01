@@ -8,6 +8,8 @@
   <ItemGroup>
     <Folder Include="CtCI\" />
     <Folder Include="CtCI\Stacks_And_Queues\" />
+    <Folder Include="CtCI\Heaps\" />
+    <Folder Include="CtCI\Trees_And_Graphs\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="CtCI\Stacks_And_Queues\StacksQueuesRunner.cs" />

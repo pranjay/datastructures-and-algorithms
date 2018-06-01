@@ -15,7 +15,7 @@ namespace Datastructures_And_Algorithms.CtCI.Stacks_And_Queues
         {
             if (!sortedStack.IsEmpty() && item > sortedStack.Peek())
             {
-                while (!sortedStack.IsEmpty() && item >= sortedStack.Peek())
+                while (!sortedStack.IsEmpty() && item > sortedStack.Peek())
                 {
                     bufferStack.Push(sortedStack.Pop());
                 }
