@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datastructures_And_Algorithms", "Datastructures_And_Algorithms\Datastructures_And_Algorithms.csproj", "{7F92FE6B-81B5-4638-B223-72BB6D32597E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS-Algo", "DS-Algo\DS-Algo.csproj", "{1D256126-73E0-44F3-8C95-2D613B347CDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,12 @@ Global
 		{7F92FE6B-81B5-4638-B223-72BB6D32597E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F92FE6B-81B5-4638-B223-72BB6D32597E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F92FE6B-81B5-4638-B223-72BB6D32597E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D256126-73E0-44F3-8C95-2D613B347CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D256126-73E0-44F3-8C95-2D613B347CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D256126-73E0-44F3-8C95-2D613B347CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D256126-73E0-44F3-8C95-2D613B347CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
