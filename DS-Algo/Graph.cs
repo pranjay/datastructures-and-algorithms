@@ -4,6 +4,12 @@ namespace DS_Algo
 {
     public class Graph
     {
+        public Graph()
+        {
+            Nodes = new List<Project>();
+            Map = new Dictionary<string, Project>();
+        }
+
         public List<Project> Nodes { get; private set; }
         public Dictionary<string, Project> Map { get; private set; }
 
