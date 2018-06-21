@@ -22,7 +22,6 @@ namespace Datastructures_And_Algorithms.CtCI.Trees_And_Graphs
             if (rightHeight == int.MinValue) return int.MinValue;
 
             if (Math.Abs(leftHeight - rightHeight) > 1) return int.MinValue;
-
             return Math.Max(leftHeight, rightHeight) + 1;
         }
 
